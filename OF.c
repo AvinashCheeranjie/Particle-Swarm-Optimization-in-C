@@ -1,7 +1,5 @@
 #include <math.h>
-// IMPORTANT: DO NOT change this file
-// Objective functions:
-
+/*Code for the benchmark objective functions*/
 
 double griewank(int NUM_VARIABLES, double *x) {
     // griewank() 
@@ -20,7 +18,7 @@ double griewank(int NUM_VARIABLES, double *x) {
 
 double levy(int NUM_VARIABLES, double *x) {
     // levy() 
-    // if the number of decison variables are high, we had to allocate memory for `w`. But for this assignment no need
+    // if the number of decison variables are high, allocate memory for `w`
     double w[NUM_VARIABLES]; 
     for (int i = 0; i < NUM_VARIABLES; i++) {
         w[i] = 1.0 + (x[i] - 1.0) / 4.0;
@@ -65,7 +63,7 @@ double rosenbrock(int NUM_VARIABLES, double *x) {
 
 
 double schwefel(int NUM_VARIABLES, double *x) {
-    // schwefel() with Bonus #####################################
+    // schwefel() 
     double sum = 0.0;
 
     for (int i = 0; i < NUM_VARIABLES; i++) {
@@ -78,8 +76,7 @@ double schwefel(int NUM_VARIABLES, double *x) {
 
 
 double dixon_price(int NUM_VARIABLES, double *x) {
-    
-    // dixon_price() with Bonus ##################################
+    // dixon_price() 
     double term1 = pow(x[0] - 1.0, 2);
     double term2 = 0.0;
 
@@ -92,8 +89,7 @@ double dixon_price(int NUM_VARIABLES, double *x) {
 
 
 double michalewicz(int NUM_VARIABLES, double *x) {
-    
-    // michalewicz() with Bonus ##################################
+    // michalewicz() 
     double m = 10.0;
     double sum = 0.0;
 
@@ -106,8 +102,7 @@ double michalewicz(int NUM_VARIABLES, double *x) {
 
 
 double styblinski_tang(int NUM_VARIABLES, double *x) {
-   
-    // styblinski_tang() with Bonus ##############################
+    // styblinski_tang() 
     double sum = 0.0;
 
     for (int i = 0; i < NUM_VARIABLES; i++) {

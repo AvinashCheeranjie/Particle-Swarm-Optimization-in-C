@@ -1,6 +1,5 @@
 #ifndef OF_H
 #define OF_H
-// IMPORTANT: DO NOT change this file
 
 // Objective Function prototypes
 double griewank(int NUM_VARIABLES, double *x);
