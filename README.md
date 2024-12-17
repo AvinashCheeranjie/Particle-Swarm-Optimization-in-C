@@ -1,2 +1,19 @@
-# Particle-Swarm-Optimization-in-C
-Basic implementation of particle swarm optimization (PSO) in C, tested on several benchmark objective functions.
+# Particle Swarm Optimization (PSO) in C
+
+[Particle Swarm Optimization](https://en.wikipedia.org/wiki/Particle_swarm_optimization) (PSO) is a population-based optimization algorithm inspired by the social behavior of birds flocking or fish schooling. Developed by Kennedy and Eberhart in 1995, PSO mimics how individuals in a group adapt by sharing information to reach an optimal solution in a multi-dimensional search space. In PSO, a ”swarm” of particles represents potential solutions to the optimization problem. Each particle adjusts its position based on its own best experience and the best experience of the swarm, gradually converging to an optimal or near optimal solution. This algorithm is widely used for solving complex optimization problems due to its simplicity, efficiency, and ability to avoid local optima in many cases. In this project, I developed a very basic PSO algorithm and tested it on the following benchmark objective functions:
+
+1. [Griewank](https://www.sfu.ca/%7Essurjano/griewank.html)
+2. [Levy](https://www.sfu.ca/%7Essurjano/levy.html)
+3. [Rastrigin](https://www.sfu.ca/%7Essurjano/rastr.html)
+4. [Rosenbrock](https://www.sfu.ca/%7Essurjano/rosen.html)
+5. [Schwefel](https://www.sfu.ca/%7Essurjano/schwef.html)
+6. [Dixon-Price](https://www.sfu.ca/%7Essurjano/dixonpr.html)
+7. [Michalewicz](https://www.sfu.ca/%7Essurjano/michal.html) with $m=10$
+8. [Styblinski-Tang](https://www.sfu.ca/%7Essurjano/stybtang.html)
+
+## Features
+
+
+
+## Usage 
+
