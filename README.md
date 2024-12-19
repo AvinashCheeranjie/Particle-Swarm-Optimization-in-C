@@ -12,6 +12,7 @@
 8. [Styblinski-Tang](https://www.sfu.ca/%7Essurjano/stybtang.html)
 
 ## Features
+- Cognitive & Social coefficients set to 1.49
 - Adaptive inertia weight to encourage exploitation closer to optimal convergence
 - Random application of Gaussian perturbation to prevent premature convergence to local minima 
 
@@ -19,10 +20,8 @@
 ## Usage 
 - Clone the repository
 - Run `make pso` in the terminal to compile and build the program
-- Execute the program with a command line of the following format:
-  ```bash
-  ./pso <objective function> <number of dimensions> <lower bound> <upper bound> <number of particles> <number of iterations>
-  ```
+- Execute the program with a command in the terminal of the following format:
+  ```./pso <objective function> <number of dimensions> <lower bound> <upper bound> <number of particles> <number of iterations>```
   For example:
   ```bash
   ./pso griewank 10 -600 600 450 100000
