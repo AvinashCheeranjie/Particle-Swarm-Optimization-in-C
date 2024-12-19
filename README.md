@@ -20,8 +20,8 @@
 ## Usage 
 - Clone the repository
 - Run `make pso` in the terminal to compile and build the program
-- Execute the program with a command in the terminal of the following format:
-  ```./pso <objective function> <number of dimensions> <lower bound> <upper bound> <number of particles> <number of iterations>```
+- Execute the program with a command in the terminal of the following format: \
+  ```./pso <objective function> <number of dimensions> <lower bound> <upper bound> <number of particles> <number of iterations>``` \
   For example:
   ```bash
   ./pso griewank 10 -600 600 450 100000
